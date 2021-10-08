@@ -1,20 +1,24 @@
 {
-	"name": "laravel-mix-symbolic-links",
-	"version": "1.0.0",
-	"description": "Extends Laravel Mix to allow creating symbolic links",
-	"main": "src/index.js",
-	"author": "Simon <blink_si@hotmail.com>",
-	"license": "MIT",
-	"private": false,
-	"scripts": {
-		"start": "npm run development",
-		"development": "mix"
-	},
-	"dependencies": {
-		"colors": "^1.4.0",
-		"is-symbolic-link": "^2.0.3"
-	},
-	"devDependencies": {
-		"laravel-mix": "^6.0.31"
-	}
+  "name": "laravel-mix-symbolic-links",
+  "version": "0.8.0",
+  "description": "Extends Laravel Mix to allow creating symbolic links",
+  "main": "src/index.js",
+  "author": "Drummer_si",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrummerSi/laravel-mix-symbolic-links.git"
+  },
+  "scripts": {
+    "start": "npm run development",
+    "development": "mix"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "is-symbolic-link": "^2.0.3"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.31"
+  }
 }
