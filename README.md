@@ -1,6 +1,10 @@
 <a id="top"></a>
 # Laravel Symbolic Links
 
+![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
+[![Latest Version on NPM](https://img.shields.io/npm/v/laravel-mix-symbolic-links.svg?style=flat-square)](https://npmjs.com/package/laravel-mix-symbolic-links)
+[![npm](https://img.shields.io/npm/dt/laravel-mix-symbolic-links.svg?style=flat-square)](https://www.npmjs.com/package/laravel-mix-symbolic-links)
+
 This package allows the creation of symbolic links (files and folders) during the laravel-mix bundling.
 
 The parameters to the function paths accept both windows & unix-style paths, relative and absolute paths as well as UNC network paths.
