@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-symbolic-links",
-  "version": "0.8.1",
+  "version": "0.8.8",
   "description": "Extends Laravel Mix to allow creating symbolic links",
   "main": "src/index.js",
   "author": "Drummer_si",

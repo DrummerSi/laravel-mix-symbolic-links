@@ -22,17 +22,22 @@ class SymbolicFolder {
 				} else {
 					//Fail
 					console.log(`> The symbolic link at '${path}' failed to be created correctly`.bold.red)
+                    console.log(` > You may require additional priviledges to continue`.bold.red)
+                    process.exit()
 				}
 				
 			} catch(err){
 				//Error
 				console.log(`> The symbolic link at '${path}' failed to be created correctly \n\n ${err}`.bold.red)
+                console.log(` > You may require additional priviledges to continue`.bold.red)
+                process.exit()
 			}
 			
 		} else {
 			//If the existing file is NOT a symbolic link, alert the user
 			if(!isSymbolicLink.sync(path)){
 				console.log(`> The symbolic link at '${path}' could not be created. Another file with this name already exists`.bold.red)
+                process.exit()
 			}
 			//Else, it's a symbolic link... do nothing
 			
